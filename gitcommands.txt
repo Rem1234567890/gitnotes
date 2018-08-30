@@ -24,3 +24,10 @@ Git diff insertcommitID insertcommitID |=| tells the difference between 2 specif
 
 IF YOU TRIGGER VIM WITH GIT DIFF
 -Type q and hit enter to quit
+
+git branch |=| tells me what branch I'm on
+git checkout -b BRANCHNAME |=| switches me to a new branch called branchname
+
+git checkout branchname |=| switches me to an existing branch called branchname
+
+git merge branchname |=| merges branchname into whatever branch you are currently in
