@@ -1,0 +1,26 @@
+git |=| means I'm about to have a git command
+git --version |=| tells me the version of git I have
+
+git init |=| tells git to start working
+git add|=| tells what file I want to track in this comit
+
+git commit -m "Insert label here" |=| saves commit and labels it appropriately
+
+IF YOU TRIGGER VIM WITH MISSING COMMIT MESSAGE
+
+-First: Type "i" to trigger insert
+-Second: Type the commit message you should have typed to begin with
+-Third: Hit the escape key to stop Insert
+-Fourth: Type :wq to save the message and escape
+
+
+Git status |=| How many files have changes
+Git diff |=| What has changed
+Git log |=| lists all commits with IDs and messages
+
+
+Git diff insertcommitID insertcommitID |=| tells the difference between 2 specific commits
+
+
+IF YOU TRIGGER VIM WITH GIT DIFF
+-Type q and hit enter to quit
